@@ -1,0 +1,55 @@
+.mycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #btn{
+        margin-left: 40%;
+    }
+    .bt2{
+        margin-left: 14%;
+    }
+    .marquee{
+        margin: 3%;
+    }
+    
+.my-color {
+  color: #33c7a5;
+}
+
+.my-bgcolor {
+  background-color: #00b98e;
+  border-color: #00b98e;
+}
+
+/* signin button  */
+.btn.btn-primary,
+.btn.btn-secondary {
+  color: #FFFFFF;
+}
+
+.btn {
+  transition: .5s;
+}
+.me-3 {
+  margin-right: 1rem !important;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+color: #000;
+background-color: #33c7a5;
+border-color: #1ac099;
+}
+.my-bgcolor:hover {
+  background-color: #22ddb2;
+border-color: #22ddb2;
+}

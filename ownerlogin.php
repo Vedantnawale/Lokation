@@ -40,80 +40,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/mediab.css">
+  <link rel="stylesheet" href="css/ownlogin.css">
 
   <title>Lokation|Owner</title>
-  <style>
-    .form-control{
-      color: #1ac099;
-      font-weight: 500;
-    }
-      .btm{
-        margin-left: 86%;
-      }
-    .container {
-      /* border: 1px solid black; */
-      margin-left: 4%;
-      /* margin-top: 0%; */
-    }
-
-    .cm {
-      justify-content: center;
-    }
-    body{
-      background-image: url("img/footer-bg.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .alert {
-    position: absolute;
-    width: 79%;
-    margin-left: 12%;
-    margin-top: 7%;
-}
-.row{
-  margin-top: 18px;
-  margin-right: 20px;
-}
-.my-color {
-      color: #33c7a5;
-    }
-
-    .my-bgcolor {
-      background-color: #00b98e;
-      border-color: #00b98e;
-    }
-
-   /* signin button  */
-   .btn.btn-primary,
-    .btn.btn-secondary {
-      color: #FFFFFF;
-    }
-
-    .btn {
-      transition: .5s;
-    }
-    .me-3 {
-      margin-right: 1rem !important;
-    }
-
-    .animated {
-      animation-duration: 1s;
-      animation-fill-mode: both;
-    }
-
-    .fadeIn {
-      animation-name: fadeIn;
-    }
-    .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-    color: #000;
-    background-color: #33c7a5;
-    border-color: #1ac099;
-}
-    .my-bgcolor:hover {
-      background-color: #22ddb2;
-    border-color: #22ddb2;
-    }
-  </style>
 </head>
 
 <body>

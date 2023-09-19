@@ -1,0 +1,13 @@
+ @media (max-width:799px) {
+    #btn {
+        margin-left: 36%;
+    }
+}
+@media (max-width:477px) {
+    #btn {
+        margin-left: 24%;
+    }
+        .my-color{
+            font-size: 30px;
+        }
+}

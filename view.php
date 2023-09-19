@@ -113,7 +113,7 @@ if(isset($_GET['delete'])){
                    
                   </p>
                   <?php
-                  echo "<button class='delete btn btn-sm btn-danger' id=d".$row['id']." style='font-size: 2rem;'>Delete</button> " ?>
+                  echo "<button class='delete btn btn-sm btn-danger' id=".$row['id']." style='font-size: 2rem;'>Delete</button> " ?>
                               </div>
             </div>
 

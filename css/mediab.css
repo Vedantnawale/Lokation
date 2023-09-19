@@ -1,0 +1,10 @@
+@media (max-width:799px) {
+    #btm {
+        margin-left: 60%;
+    }
+}
+@media (max-width:477px) {
+    .btm {
+        margin-left: 55%;
+    }
+}

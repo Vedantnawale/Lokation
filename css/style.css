@@ -63,7 +63,7 @@ body{
 } */
 .nav-bar{
     position: fixed;
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     transition: .5s;
     z-index: 9999;
 }
